@@ -23,5 +23,8 @@ services:
       CHROME_PATH: "/usr/bin/google-chrome"
       USE_CHROME_STABLE: "true"
       NODE_ENV: "production"
+      ENABLE_XVBF: "true"
+      MAX_CONCURRENT_SESSIONS: 100,
+      QUEUE_LENGTH: 100,
 volumes:
   sessions:
