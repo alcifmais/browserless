@@ -26,6 +26,6 @@ services:
       ENABLE_XVBF: "true"
       MAX_CONCURRENT_SESSIONS: 100,
       QUEUE_LENGTH: 100,
-      ENABLE_CORS: "true",
+      ENABLE_CORS: "true"
 volumes:
   sessions:
