@@ -2,7 +2,7 @@ version: '3'
 
 services:
   browserless:
-    image: browserless/chrome:latest
+    image: browserless/chrome:1.53-chrome-stable
     hostname: browser
     init: true
     volumes:
