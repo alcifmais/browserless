@@ -28,5 +28,6 @@ services:
       CHROME_PATH: "/usr/bin/google-chrome"
       USE_CHROME_STABLE: "true"
       NODE_ENV: "production"
+      MAX_CONCURRENT_SESSIONS: 15
 volumes:
   sessions:
